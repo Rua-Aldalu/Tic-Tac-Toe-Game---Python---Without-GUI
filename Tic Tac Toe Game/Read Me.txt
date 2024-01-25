@@ -1,0 +1,37 @@
+# Tic Tac Toe Game
+
+Welcome to the Tic Tac Toe game! This Python program allows two players to enjoy the classic Tic Tac Toe experience.
+
+## Table of Contents
+
+- [How to Play](#how-to-play)
+- [Code Structure](#code-structure)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## How to Play
+
+1. Enter the names of Player 1 and Player 2.
+2. Choose 'X' or 'O' as your symbols.
+3. Enter the number of the cell where you want to place your symbol (1 to 9).
+4. The game continues until a player wins or the board is full.
+
+## Code Structure
+
+The code is organized into functions to enhance readability and maintainability. Here's a brief overview:
+
+- `players()`: Collects information about the players, including names and chosen symbols.
+- `letter_case(word, letter)`: Handles upper and lower casing of letters.
+- `name_correction()`: Ensures that the entered name contains only letters.
+- `game_board(player1, player2, board_cells)`: Displays the current state of the Tic Tac Toe board.
+- `playing(player)`: Allows a player to make a move and updates the board.
+- `tie(board_cells)`: Checks if the game is a tie.
+- `winning(board_cells, player_symbol)`: Checks if a player has won.
+
+## Usage
+
+To play the game, run the Python script in your terminal:
+
+```bash
+python tic_tac_toe.py
